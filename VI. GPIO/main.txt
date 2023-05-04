@@ -1,2 +1,11 @@
 - Bus:
-	+ Kết  nối Bus (hay Bus Connection) 
+	+ Kết  nối Bus (hay Bus Connection) là các kết nối vật lý, thường là nhiều dây cùng kết nối
+	+ Mối dây tương đương với 1 bit.
+	+ Tốc độ của bus được xác định bởi số lượng dây và tốc độ của thạch anh. 
+	+ VD: Một bus có 16 dây, mỗi dây truyền 1 bit, thạch anh 133 MHZ
+		-> Tốc độ: 16 x 133 x 10^6 = 2128 x 10^6 bits/s hay 266 MB/s
+- Crystal:
+	+ Thạch anh (hay Crystal) dùng để tạo ra tần số 
+	+ Tần số của thạch anh tạo ra ít bị ảnh hưởng hơn mạch dao động RC (Resittor-Capacitor Oscillator)
+	+ Tại sao cần thạch anh (hay tại sao cần tần số)? Vì các cấu trúc logic trong mạch điện tử đều cần xung/ tần số đều đặn.
+-   
